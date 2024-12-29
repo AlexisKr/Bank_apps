@@ -16,9 +16,6 @@ def get_mask_card_number(number_of_card: str) -> str:
     return " ".join([private_number[i : i + space_number] for i in range(0, space_four, space_number)])  # noqa: E501
 
 
-number_of_bill = int(input("Enter the number of bill: "))
-
-
 def get_mask_account(number_of_bill: str) -> str:
     """принимает на вход номер счета в виде числа
     и возвращает маску номера по правилу **XXXX
