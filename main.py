@@ -8,7 +8,7 @@ print(hidden_card_number)
 hidden_bill_number = get_mask_account('5678904547123457')
 print(hidden_bill_number)
 
-types_cards = mask_account_card('Visa Platinum')
+types_cards = mask_account_card('Visa Platinum 7700689045601234')
 print(types_cards)
 
 

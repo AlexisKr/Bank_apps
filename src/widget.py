@@ -35,8 +35,4 @@ def get_date(user_of_date: str) -> str:
     return new_date
 
 
-types_cards = mask_account_card("Visa Platinum 7700908956781245")
-print(types_cards)
 
-
-print(get_date("2024-12-29T19:34:34.671407"))
