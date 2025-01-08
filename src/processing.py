@@ -20,7 +20,7 @@ def filter_by_state(l_lict: List[Dict], key_s: str = "EXECUTED") -> List[Dict]:
     return new_filter_by_state
 
 
-def sort_by_date(last_dict: List[Dict], descending: bool = "True") -> List[Dict]:
+def sort_by_date(last_dict: List[Dict], descending: bool = True) -> List[Dict]:
     """
     Принимает список словарей и необязательный параметр, задающий порядок сортировки
     (по умолчанию — убывание). Функция должна возвращать новый список, отсортированный по дате (date
